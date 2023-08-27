@@ -1,0 +1,30 @@
+/** @format */
+
+$primary: #31d35c;
+$secondary: #21bde4;
+$dark: #2d314d;
+$light: #f3f4f6;
+$white: #fafafa;
+$navbar-toggler-focus-width: 0px;
+
+$grid-breakpoints: (
+  xs: 0,
+  xsm: 375px,
+  sm: 576px,
+  md: 768px,
+  lg: 900px,
+  xlg: 1024px,
+  xl: 1200px,
+  xxl: 1400px,
+);
+
+$container-max-widths: (
+  sm: 560px,
+  md: 750px,
+  lg: 880px,
+  xlg: 1000px,
+  xl: 1190px,
+  xxl: 1350px,
+);
+
+@import "../node_modules/bootstrap/scss/bootstrap";

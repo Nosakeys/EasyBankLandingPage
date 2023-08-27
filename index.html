@@ -1,84 +1,307 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
+  <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Display Grid</title>
-    <link rel="stylesheet" href="./style.css" />
-</head>
+    <title>Easybank Landing Page</title>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./favicon-32x32.png" />
+    <!-- fontawesome icon cdn -->
+    <link rel="stylesheet" href="./css/font-awesome.css" />
+    <!-- boostrap -->
+    <link rel="stylesheet" href="./css/bootstrap.css" />
+    <!-- css -->
+    <link rel="stylesheet" href="./css/styles.css" />
+  </head>
 
-<body>
-    <!-- <h1>Date: <span id="mydate"></span></h1>
-    <h1>Time: <span id="time"></span></h1> -->
-    <!-- <script src="./main.js"></script> -->
-    <div class="container">
-        <div class="col1">
-            <section class="row1">
-                <div class="no1"></div>
-                <div class="no2">
-                    <section class="no3"></section>
-                    <section class="no3"></section>
-                </div>
-            </section>
-            <section class="row2">
-                <div class="no2">
-                    <section class="no3"></section>
-                    <section class="no3"></section>
-                </div>
-                <div class="no1"></div>
-            </section>
-            <section class="row1">
-                <div class="no1"></div>
-                <div class="no2">
-                    <section class="no3"></section>
-                    <section class="no3"></section>
-                </div>
-            </section>
+  <body>
+    <header
+      class="header navbar navbar-expand-md navbar-light container-xxl bg-light py-3 fixed-top">
+      <nav class="container-xl">
+        <img
+          src="./images/logo.svg"
+          alt=""
+          class="easybank-logo navbar-brand" />
+        <button
+          type="button"
+          class="navbar-toggler hamburger-container p-0"
+          data-bs-toggle="collapse"
+          data-bs-target="#mynavbar">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mynavbar">
+          <ul class="navbar-nav mx-auto p-0 pt-3 pt-md-0">
+            <li class="nav-item">
+              <a href="#" class="nav-link navLink fw-bold text-dark"> Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navLink fw-bold text-dark"> About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navLink fw-bold text-dark"> Contact</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navLink fw-bold text-dark"> Blog</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link navLink fw-bold text-dark"> Careers</a>
+            </li>
+          </ul>
+          <a href="#" class="btn nav-button navButton rounded-5 header-cta">
+            Request Invite
+          </a>
         </div>
-        <div class="col2">
-            <div class="num1">
-                <secion class="rum1"></secion>
-                <secion class="rum2">
-                    <section class="pim">
-                        <secion class="tee"></secion>
-                        <secion class="tee"></secion>
-                    </section>
-                    <section class="pim">
-                        <section class="tee"></section>
-                        <section class="tee"></section>
-                    </section>
-                </secion>
-            </div>
-            <div class="num1">
-                <secion class="rum2">
-                    <section class="pim">
-                        <secion class="tee"></secion>
-                        <secion class="tee"></secion>
-                    </section>
-                    <section class="pim">
-                        <section class="tee"></section>
-                        <section class="tee"></section>
-                    </section>
-                </secion>
-                <secion class="rum1"></secion>
-            </div>
-            <div class="num1">
-                <secion class="rum1"></secion>
-                <secion class="rum2">
-                    <section class="pim">
-                        <secion class="tee"></secion>
-                        <secion class="tee"></secion>
-                    </section>
-                    <section class="pim">
-                        <section class="tee"></section>
-                        <section class="tee"></section>
-                    </section>
-                </secion>
-            </div>
-        </div>
-    </div>
-</body>
+      </nav>
+    </header>
 
+    <main class="main">
+      <section class="hero container-xl">
+        <div
+          class="hero-container position-relative pb-4 pb-sm-3 px-md-3 h-100 row d-flex flex-column align-items-center justify-content-end align-items-md-start justify-content-md-center">
+          <img
+            src="./images/image-mockups.png"
+            alt=""
+            class="hero-img col-12 col-md-7" />
+          <div
+            class="hero-text-container col-12 col-md-6 col-xlg-6 col-xl-5 px-md-0 ps-xl-3 z-3 text-center text-sm-start d-flex flex-column align-items-center align-items-md-start">
+            <h1 class="hero-header lh-1 text-center text-md-start mx-auto mx-md-0">Next generation<br>digital banking</h1>
+            <p class="hero-text lh-base text-center text-md-start mx-auto mx-md-0 mt-md-3 px-md-0 pe-xlg-5 pe-xl-4">
+              Take your financial life online. Your Easybank account will be a
+              one-stop-shop for spending, saving, budgeting, investing and much
+              more.
+            </p>
+            <button
+              type="button"
+              class="hero-button btn rounded-5 align-self-sm-center align-self-md-start mx-auto mx-md-0 mt-md-2">
+              Request Invite
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <section class="service container-xxl d-flex justify-content-center align-items-center py-3 bg-light">
+        <div class="container d-flex justify-content-center align-items-center py-4">
+          <div class="service-container row px-md-2">
+            <div class="choose-easybank mb-1 col-12 text-center text-sm-start">
+              <h1 class="service-first-text">Why choose Easybank?</h1>
+              <p class="service-second-text">
+                We leverage Open Banking to turn your bank account into your
+                financial hub. <br />Control your finances like never before.
+              </p>
+            </div>
+            <div
+              class="online-banking col-12 col-sm-6 col-lg-3 mt-3 text-center text-sm-start d-flex flex-column align-items-center justify-content-center justify-content-lg-start align-items-sm-start gap-2">
+              <img
+                src="./images/icon-online.svg"
+                alt=""
+                class="service-image mb-sm-2" />
+              <h2 class="online-banking-header subheader text-sm-start m-0">
+                Online Banking
+              </h2>
+              <p class="service-text">
+                Our modern web design and mobile applications allow you to keep
+                track of your finances wherever you are in the world.
+              </p>
+            </div>
+            <div
+              class="simple-budgeting col-12 col-sm-6 col-lg-3 mt-3 text-center text-sm-start d-flex flex-column align-items-center justify-content-center justify-content-lg-start align-items-sm-start gap-2">
+              <img
+                src="./images/icon-budgeting.svg"
+                alt=""
+                class="service-image mb-sm-2" />
+              <h2 class="simple-budgeting-header subheader m-0">
+                Simple Budgeting
+              </h2>
+              <p class="service-text">
+                See exactly where your money goes each month. Receive
+                notifications when you're close to hitting your limits.
+              </p>
+            </div>
+            <div
+              class="fast-onboarding col-12 col-sm-6 col-lg-3 mt-3 text-center text-sm-start d-flex flex-column align-items-center justify-content-center justify-content-lg-start align-items-sm-start gap-2">
+              <img
+                src="./images/icon-onboarding.svg"
+                alt=""
+                class="service-image mb-sm-2" />
+              <h2 class="fast-onboarding-header subheader m-0">
+                Fast Onboarding
+              </h2>
+              <p class="service-text">
+                We don't do branches. Open your account in minutes online and
+                start taking control of your finances right away.
+              </p>
+            </div>
+            <div
+              class="open-api col-12 col-sm-6 col-lg-3 mt-3 text-center text-sm-start d-flex flex-column align-items-center justify-content-center justify-content-lg-start align-items-sm-start gap-2">
+              <img
+                src="./images/icon-api.svg"
+                alt=""
+                class="service-image mb-sm-2" />
+              <h2 class="open-api-header subheader m-0">Open API</h2>
+              <p class="service-text">
+                Manage your savings, investments, pension and much more from one
+                account. Tracking your money has never been easier.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="article container-xxl d-flex justify-content-center align-items-center py-3 bg-white">
+        <div class="container d-flex justify-content-center py-3">
+          <div
+            class="article-container row p-0 px-xsm-4 px-sm-0 d-sm-flex justify-content-center gap-sm-3">
+            <h1 class="article-heading col-12 text-center px-sm-0 ps-lg-2 ps-xlg-3 text-sm-start">
+              Latest Articles
+            </h1>
+
+            <div
+              class="article-card card p-0 m-0 my-3 my-sm-1 col-12 col-sm-5 col-xlg-3">
+              <img
+                src="./images/image-currency.jpg"
+                alt=""
+                class="card-img-top img-fluid article-image" />
+              <div
+                class="article-details card-body px-3 pb-4 pt-3 vstack gap-2">
+                <p class="author m-0">By Claire Robinson</p>
+                <h2 class="article-header lead m-0">
+                  Receive money in any currency with no fees
+                </h2>
+                <p class="article-text m-0">
+                  The world is getting smaller and we're becoming more mobile.
+                  So why should you be forced to only receive money in a
+                  single...
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="article-card card p-0 m-0 my-3 my-sm-1 col-12 col-sm-5 col-xlg-3">
+              <img
+                src="./images/image-restaurant.jpg"
+                alt=""
+                class="card-img-top img-fluid article-image" />
+              <div class="article-details px-3 pb-4 pt-3 vstack gap-2">
+                <p class="author m-0">By Wilson Hutton</p>
+                <h2 class="article-header lead m-0">
+                  Treat yourself without worrying about money
+                </h2>
+                <p class="article-text m-0">
+                  Our simple budgeting feature allows you to seperate out your
+                  spending and set realistic limits each month. That means
+                  you...
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="article-card card p-0 m-0 my-3 my-sm-1 col-12 col-sm-5 col-xlg-3">
+              <img
+                src="./images/image-plane.jpg"
+                alt=""
+                class="card-img-top img-fluid article-image" />
+              <div class="article-details px-3 pb-4 pt-3 vstack gap-2">
+                <p class="author m-0">By Wilson Hutton</p>
+                <h2 class="article-header lead m-0">
+                  Take you easybank card wherever you go
+                </h2>
+                <p class="article-text m-0">
+                  We want you to enjoy your travels. This is why we dont charge
+                  any fees on purchases while you're abroad. we'll even show
+                  you...
+                </p>
+              </div>
+            </div>
+
+            <div
+              class="article-card card p-0 m-0 my-3 my-sm-1 col-12 col-sm-5 col-xlg-3">
+              <img
+                src="./images/image-confetti.jpg"
+                alt=""
+                class="card-img-top img-fluid article-image" />
+              <div class="article-details px-3 pb-4 pt-3 vstack gap-2">
+                <p class="author m-0">By Claire Robinson</p>
+                <h2 class="article-header lead m-0">
+                  Our invite-only Beta accounts are now live!
+                </h2>
+                <p class="article-text m-0">
+                  After a lot of hard work by the whole team, we're excited to
+                  launch our closed beta. It's easy to request an invite through
+                  the site...
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer
+      class="footer container-xxl d-flex justify-content-center align-items-center bg-dark">
+      <div
+        class="footer-container col-12 container row d-flex flex-column align-items-center justify-content-center flex-sm-row align-items-sm-start justify-content-sm-start py-5 py-sm-4 py-md-4 px-sm-0 text-light gap-4 gap-sm-0">
+        <div
+          class="footer-logo-container col-12 col-sm-6 col-md-6 mt-sm-0 px-sm-0 mb-sm-4 d-flex align-items-center justify-content-center align-items-sm-start justify-content-sm-start">
+          <div class="footer-logo d-flex flex-row justify-content-center align-items-center">
+            <img src="./favicon-32x32.png" alt="" class="footer-logo mb-1" />
+            <span class="h4 fw-bolder text-white">easybank</span>
+          </div>
+        </div>
+        <div
+          class="social-container mt-2 mt-sm-0 col-12 col-sm-6 px-sm-0 mb-sm-4 d-flex flex-row align-items-center justify-content-sm-end justify-content-center align-items-sm-end">
+          <i class="icons text-white fa-brands fa-facebook mx-2"></i>
+          <i class="icons text-white fa-brands fa-youtube mx-2"></i>
+          <i class="icons text-white fa-brands fa-twitter mx-2"></i>
+          <i class="icons text-white fa-brands fa-pinterest mx-2"></i>
+          <i class="icons text-white fa-brands fa-instagram mx-2 me-sm-0"></i>
+        </div>
+        <ul
+          class="first-footer-nav-item m-0 mt-3 mt-sm-2 col-12 col-sm-2 col-md-3 px-sm-0 text-center text-sm-start vstack gap-4 gap-sm-2 gap-md-2">
+          <li class="footer-nav-link text-white">About Us</li>
+          <li class="footer-nav-link text-white">Contact</li>
+          <li class="footer-nav-link text-white">Blog</li>
+        </ul>
+        <ul
+          class="second-footer-nav-item m-0 mt-sm-2 col-12 col-sm-3 px-sm-0 text-center text-sm-start vstack gap-4 gap-sm-2 gap-md-2">
+          <li class="footer-nav-link text-white">Careers</li>
+          <li class="footer-nav-link text-white">Support</li>
+          <li class="footer-nav-link text-white">Privacy Policy</li>
+        </ul>
+        <div
+          class="button-attribution col-12 col-sm-7 col-md-6 px-sm-0 mt-sm-0 d-flex flex-column align-items-center align-items-sm-end justify-content-center justify-content-sm-between justify-content-md-start pt-sm-3">
+          <button type="button" class="footer-button btn text-white rounded-5 text-white">
+            Request Invite
+          </button>
+          <div
+            class="attribution mt-3 d-flex align-content-center justify-content-center gap-3 justify-content-sm-end w-100">
+            <!-- <p class="m-0 text-white">
+              &copy
+              <a
+                href="https://www.linkedin.com/in/silas-aigbe-8b506019b"
+                target="_blank"
+                class="frontend-mentor-link text-white"
+                ></a
+              > -->
+            </p>
+            <p class="m-0 text-white">
+              coded by
+              <a
+                href="https://github.com/Nosakeys"
+                target="_blank"
+                class="portfolio-link text-white"
+                >Nosakeys</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
 </html>
